@@ -12,7 +12,7 @@ public interface StudentService {
 
     CommonResponse delete(String id);
 
-    CommonResponse update(String id);
-    CommonResponse update(String id,String name);
+    CommonResponse update(String id);//只带id没输入name
+    CommonResponse update(String id,String name);//都输入了
 
 }
